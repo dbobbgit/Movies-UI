@@ -50,7 +50,9 @@ function getClassByRate(vote) {
     return "green";
   } else if (vote >= 5) {
     return "orange";
-  } else "red";
+  } else {
+    return "red";
+  }
 }
 
 form.addEventListener("submit", (e) => {
